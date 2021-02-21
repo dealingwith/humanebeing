@@ -9,12 +9,18 @@ tagline:             ''
 description:         'A blog about human factors in user experience engineering'
 url:                 http://humanebeing.org
 baseurl:             ''
+paginate:            5
 
 # About/contact
 author:
   name:              Daniel Miller
   url:               http://danielsjourney.com
   email:             dealingwith@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+gems: [jekyll-paginate]
 
 plugins:
   - jekyll-remote-theme
